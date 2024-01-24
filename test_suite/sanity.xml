@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice">
+    <test name="SetupTest" parallel="classes" thread-count="3">
+        <parameter name="Username" value="user123@gmail.com"/>
+        <parameter name="password" value="test@123"/>
+        <parameter name="mobile_number" value="1234567899"/>
+        <groups>
+            <run>
+                <!--<include name="Sanity" />-->
+
+            </run>
+
+        </groups>
+        <classes>
+            <class name="TestScriptJava.Anagram"/>
+            <class name="TestScriptJava.IdentifyCharacter"/>
+            <class name="TestScriptJava.OccuranceOfLetterInAStringOfWords"/>
+            <class name="TestScriptJava.OccuranceOfLetterInAStringOfSentence"/>
+            <class name="TestScriptJava.OccuranceOfWord"/>
+            <class name="TestScriptJava.RandomString"/>
+            <class name="TestScriptJava.RandomString"/>
+            <class name="TestScriptJava.RemoveDuplicateWord"/>
+            <class name="TestScriptJava.ReverseAString"/>
+            <class name="TestScriptJava.SwapWithoutThirdVariable"/>
+        </classes>
+    </test><!-- Test -->
+</suite><!-- Test -->
