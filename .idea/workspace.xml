@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8937e5-d10d-427f-a203-8e1067b09d87" name="Changes" comment="">
+    <list default="true" id="4c8937e5-d10d-427f-a203-8e1067b09d87" name="Changes" comment="added file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScriptJava/CheckVowelinaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScriptJava/CheckVowelinaString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Workspace/JenkinsProject",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -72,23 +75,51 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\DemoProgramme\target\surefire-reports" />
+      <recent name="C:\Workspace\DemoProgramme\target\surefire-reports\Practice (0)" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="TestScriptJava" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OccuranceOfWord.testcase1">
-    <configuration name="C:/Workspace/DemoProgramme/testng_sanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoProgramme" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_sanity.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+  <component name="RunManager" selected="TestNG.RemoveDuplicateWithoutCollection.removeduplicateTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JenkinsProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdentifyCharacter" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoProgramme" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JenkinsProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="JenkinsProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CheckVowelinaString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestScriptJava.*" />
@@ -96,7 +127,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.IdentifyCharacter" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.CheckVowelinaString" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -104,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccuranceOfLetterInAStringOfSentence.checkOccuranceOfLetterInAStringOfSentence" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoProgramme" />
+    <configuration name="CreatePyramid.pramid" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestScriptJava.*" />
@@ -113,26 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.OccuranceOfLetterInAStringOfSentence" />
-      <option name="METHOD_NAME" value="checkOccuranceOfLetterInAStringOfSentence" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OccuranceOfLetterInAStringOfWords.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoProgramme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestScriptJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.OccuranceOfLetterInAStringOfWords" />
-      <option name="METHOD_NAME" value="testcase1" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.CreatePyramid" />
+      <option name="METHOD_NAME" value="pramid" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,7 +154,7 @@
       </method>
     </configuration>
     <configuration name="OccuranceOfWord.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoProgramme" />
+      <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestScriptJava.*" />
@@ -158,13 +171,106 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicateWithoutCollection.removeduplicateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestScriptJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestScriptJava" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.RemoveDuplicateWithoutCollection" />
+      <option name="METHOD_NAME" value="removeduplicateTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="JenkinsProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
+      <module name="JenkinsProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <option name="studyTest" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="JenkinsProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="JenkinsProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RemoveDuplicateWithoutCollection.removeduplicateTest" />
+        <item itemvalue="TestNG.CreatePyramid.pramid" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.CheckVowelinaString" />
         <item itemvalue="TestNG.OccuranceOfWord.testcase1" />
-        <item itemvalue="TestNG.OccuranceOfLetterInAStringOfSentence.checkOccuranceOfLetterInAStringOfSentence" />
-        <item itemvalue="TestNG.OccuranceOfLetterInAStringOfWords.testcase1" />
-        <item itemvalue="TestNG.C:/Workspace/DemoProgramme/testng_sanity.xml" />
-        <item itemvalue="TestNG.IdentifyCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +283,21 @@
       <option name="presentableId" value="Default" />
       <updated>1704260281034</updated>
     </task>
+    <task id="LOCAL-00001" summary="added file">
+      <created>1706104965111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706104965111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added file">
+      <created>1706105006790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706105006790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +310,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
