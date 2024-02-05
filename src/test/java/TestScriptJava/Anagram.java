@@ -18,8 +18,7 @@ public class Anagram {
         {
             char[] char1=s1.toCharArray();
             char[] char2=s2.toCharArray();
-
-            Arrays.sort(char1);
+            System.out.println("Check if it is Anagram");
             Arrays.sort(char2);
             System.out.println("Check if it is Anagram");
             if(Arrays.equals(char1,char2))
