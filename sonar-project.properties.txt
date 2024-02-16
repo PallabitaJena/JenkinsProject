@@ -1,0 +1,19 @@
+# Required properties
+sonar.projectKey=my_project_key
+sonar.projectName=My Project
+sonar.projectVersion=1.0
+
+# Language settings (replace 'java' with your project's language)
+sonar.language=java
+
+# Source file directories (replace 'src' with your project's source directory)
+sonar.sources=src
+
+# Encoding of source files
+sonar.sourceEncoding=UTF-8
+
+# SonarQube server URL
+sonar.host.url=http://localhost:9000
+
+# Authentication token (replace 'your_token' with the actual token)
+sonar.login=your_token

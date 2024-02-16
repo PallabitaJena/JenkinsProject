@@ -18,9 +18,9 @@ public class Anagram {
         {
             char[] char1=s1.toCharArray();
             char[] char2=s2.toCharArray();
-int a=0;
+             int a=0;
             Arrays.sort(char1);
-       
+            Arrays.sort(char2);
             if(Arrays.equals(char1,char2))
 
             {
