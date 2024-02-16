@@ -14,6 +14,6 @@ public class GetRequest {
         Response response= given().when().get().then().extract().response();
 
         JsonPath jsonPath=response.jsonPath();
-        String name= jsonPath.getString("gear[0].id");
+        String name= jsonPath.getString("gear[1].id.val");
     }
 }
