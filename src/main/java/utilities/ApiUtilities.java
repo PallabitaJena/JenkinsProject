@@ -4,10 +4,11 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 public class ApiUtilities {
 
-    public void validateSchema(Response response,String file)
+    public boolean validateSchema(Response response,String file)
     {
       response.then()
               .assertThat()
               .body(JsonSchemaValidator.matchesJsonSchema(file));
+      return true;
     }
 }
