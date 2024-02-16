@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8937e5-d10d-427f-a203-8e1067b09d87" name="Changes" comment="added file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestScriptJava/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScriptJava/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScriptJava/CheckVowelinaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScriptJava/CheckVowelinaString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -82,8 +84,9 @@
       <recent name="TestScriptJava" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RemoveDuplicateWithoutCollection.removeduplicateTest">
-    <configuration name="CheckVowelinaString" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestEmployeeClass.TestCase">
+    <configuration name="TestEmployeeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.TestEmployeeClass" />
       <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
@@ -91,16 +94,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.CheckVowelinaString" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatePyramid.pramid" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Employee.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +107,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.CreatePyramid" />
-      <option name="METHOD_NAME" value="pramid" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.Employee" />
+      <option name="METHOD_NAME" value="testCase1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccuranceOfWord.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OccuranceOfLetterInAStringOfSentence.checkOccuranceOfLetterInAStringOfSentence" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.OccuranceOfWord" />
-      <option name="METHOD_NAME" value="testcase1" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.OccuranceOfLetterInAStringOfSentence" />
+      <option name="METHOD_NAME" value="checkOccuranceOfLetterInAStringOfSentence" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateWithoutCollection.removeduplicateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeClass.TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JenkinsProject" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScriptJava" />
-      <option name="MAIN_CLASS_NAME" value="TestScriptJava.RemoveDuplicateWithoutCollection" />
-      <option name="METHOD_NAME" value="removeduplicateTest" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.TestEmployeeClass" />
+      <option name="METHOD_NAME" value="TestCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,10 +152,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeClass.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JenkinsProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestScriptJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestScriptJava" />
+      <option name="MAIN_CLASS_NAME" value="TestScriptJava.TestEmployeeClass" />
+      <option name="METHOD_NAME" value="testCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -166,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RemoveDuplicateWithoutCollection.removeduplicateTest" />
-        <item itemvalue="TestNG.CreatePyramid.pramid" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.CheckVowelinaString" />
-        <item itemvalue="TestNG.OccuranceOfWord.testcase1" />
+        <item itemvalue="TestNG.TestEmployeeClass.TestCase" />
+        <item itemvalue="Application.TestEmployeeClass" />
+        <item itemvalue="TestNG.TestEmployeeClass.testCase1" />
+        <item itemvalue="TestNG.Employee.testCase1" />
+        <item itemvalue="TestNG.OccuranceOfLetterInAStringOfSentence.checkOccuranceOfLetterInAStringOfSentence" />
       </list>
     </recent_temporary>
   </component>
