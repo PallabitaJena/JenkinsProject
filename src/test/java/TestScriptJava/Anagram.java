@@ -1,5 +1,6 @@
 package TestScriptJava;
 
+import DataProvider.TestCaseName;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
@@ -8,6 +9,7 @@ import java.util.Map;
 
 public class Anagram {
     @Test
+    @TestCaseName("checkAnagram")
     public void checkAnagram()
     {
 
