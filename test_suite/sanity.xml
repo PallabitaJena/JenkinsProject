@@ -18,8 +18,8 @@
             <class name="TestScriptJava.OccuranceOfLetterInAStringOfWords"/>
             <class name="TestScriptJava.OccuranceOfLetterInAStringOfSentence"/>
             <class name="TestScriptJava.OccuranceOfWord"/>
-            <class name="TestScriptJava.RandomString"/>
-            <class name="TestScriptJava.RandomString"/>
+            <class name="TestScriptJava.TestRandomString"/>
+            <class name="TestScriptJava.TestRandomString"/>
             <class name="TestScriptJava.RemoveDuplicateWord"/>
             <class name="TestScriptJava.ReverseAString"/>
             <class name="TestScriptJava.SwapWithoutThirdVariable"/>

@@ -1,0 +1,18 @@
+{
+  "testData": [
+    {
+      "pageName": "Anagram",
+      "pageData": [
+        {
+          "testCaseName": "checkAnagram",
+          "data": [
+            {
+              "runMode": true;
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}

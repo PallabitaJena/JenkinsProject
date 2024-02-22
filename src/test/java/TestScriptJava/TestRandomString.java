@@ -3,7 +3,7 @@ package TestScriptJava;
 import org.testng.annotations.Test;
 
 import java.security.SecureRandom;
-public class RandomString {
+public class TestRandomString {
 
 
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#%";
